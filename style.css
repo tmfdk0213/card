@@ -1,0 +1,152 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #673399;
+}
+
+.section-title {
+  width: 1080px;
+  margin: 0 auto;
+  vertical-align: top;
+  margin-top: 100px;
+}
+
+.section {
+  padding: 100px 0;
+}
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.header {
+  margin-bottom: 100px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 40px;
+}
+
+h1 strong {
+  -webkit-box-shadow: inset 0 -20px 0;
+  box-shadow: inset 0 -20px 0 orangered;
+  -ms-flex-preferred-size: 26%;
+  flex-basis: 26%;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+p::before {
+  content: "";
+  background: #bd8fe8;
+  position: absolute;
+  top: 120px;
+  left: 250px;
+  width: 70px;
+  height: 2px;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+}
+
+p {
+  color: #bd8fe8;
+  font-size: 14px;
+}
+
+.card-container {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  min-height: 200px;
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.card-box {
+  max-width: 100%;
+  flex-basis: 26%;
+  flex-shrink: 0;
+}
+
+.card-left img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h2 {
+  color: #fff;
+  position: absolute;
+  left: 870px;
+}
+
+.card-txt {
+  padding-left: 20px;
+  position: absolute;
+  left: 280px;
+  top: 30px;
+}
+
+.card-txt2 {
+  position: absolute;
+  left: 10px;
+  top: 30px;
+}
+
+li:nth-child(1) {
+  color: #673399;
+  font-weight: bold;
+  padding-bottom: 32px;
+}
+
+.card-box:nth-child(even) {
+  position: absolute;
+  left: 300px;
+}
+
+.card-container2 {
+  background: #fff;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  min-height: 200px;
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.card-left2 img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-box2 {
+  max-width: 100%;
+  flex-basis: 26%;
+  flex-shrink: 0;
+}
+
+h2 {
+  color: #fff;
+  position: absolute;
+  left: 120px;
+  top: 60px;
+}
+
+.craft2 {
+  color: #fff;
+  position: absolute;
+  left: 910px;
+  top: 60px;
+}
